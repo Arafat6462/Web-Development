@@ -1,0 +1,52 @@
+/*Selector{
+	Property:value;
+}*/
+
+body{
+	background-image: url(/home/arafat/Downloads/linux/Wallpapers/back-unsplash.jpg);
+	background-size: cover;
+}
+h2 p{ /*p inside h2*/  /*element1 > element2 == parent(element1) --> chile(element2)*/
+	color: #CDE6B5;
+	text-align: center;
+	border: 5px solid rgba(205,230,181,.3);
+}
+li{
+	color: green;
+	background: orange;
+	list-style: none;
+	display:block;
+
+}
+.webtext{ /*property can have multiple class*/
+	border: 5px dashed green;
+}
+.active{
+	border: 5px dashed white;
+	color: pink;
+}
+#div1{ /*only one id possible for one property*/
+	background-color: rgba(0,188,212,.5);
+}
+#div2:hover{
+	background-color: rgba(90,88,112,.8);
+}
+
+
+.webtext1{
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-style: italic;
+ 	font-size: 100%;
+	font-family: "Georgia";
+	font-family: "Times New Roman";
+	font-weight: normal;
+	font-family: 'Poiret One', cursive;
+	background-color: white;
+ }
+ footer{
+ 	clear: both;
+ 	color: white;
+ 	text-align: center;
+ }
